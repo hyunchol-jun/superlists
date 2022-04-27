@@ -30,7 +30,12 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-
+CSRF_TRUSTED_ORIGINS = [
+    "https://*.hyuncholjun.com",
+    "http://*.hyuncholjun.com",
+    "https://*.127.0.0.1",
+    "http://*.127.0.0.1",
+]
 # Application definition
 
 INSTALLED_APPS = [
