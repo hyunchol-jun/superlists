@@ -28,7 +28,11 @@ SECRET_KEY = (
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["44.204.204.217"]
+ALLOWED_HOSTS = [
+    "44.204.204.217",
+    "superlists-staging.hyuncholjun.com",
+    "superlists.hyuncholjun.com",
+]
 
 CSRF_TRUSTED_ORIGINS = [
     "https://*.hyuncholjun.com",
